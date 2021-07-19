@@ -1,0 +1,15 @@
+body {
+  font: 100% PT Sans Narrow, sans-serif;
+  color: #ffffff;
+  background-color: #242424;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.main-nav ul {
+  list-style: none;
+}
+.main-nav ul a {
+  text-decoration: none;
+  color: #ffffff;
+}

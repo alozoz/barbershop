@@ -1,0 +1,24 @@
+$font-stack: PT Sans Narrow, sans-serif;
+$primary-color: #ffffff;
+$primary-bg: #242424;
+$align: center;
+
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $primary-bg;
+  text-align: $align;
+  padding-top: 100px - 50;
+  }
+
+.main-nav {
+	ul {
+	list-style: none;
+	a {
+	text-decoration: none;
+	color: $primary-color;
+	}
+	}
+}
+
