@@ -1,0 +1,36 @@
+.advantages {
+	width: 320px;
+	min-height: 395px;
+	margin: 0 auto;
+
+	background-color: orange;
+}
+
+.advantages__list {
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+
+	display: flex;
+	flex-direction: column;
+}
+
+@media(min-width: 768px) {
+	.advantages {
+		width: 640px;
+		min-height: 580px;
+	}
+
+}
+
+@media(min-width: 1200px) {
+	.advantages {
+		width: 960px;
+		min-height: 455px;
+	}
+
+	.advantages__list {
+		flex-direction: row;
+	}
+}

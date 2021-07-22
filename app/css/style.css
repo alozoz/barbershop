@@ -6,10 +6,10 @@ body {
   padding-top: 50px;
 }
 
-.main-nav ul {
-  list-style: none;
-}
-.main-nav ul a {
-  text-decoration: none;
-  color: #ffffff;
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
